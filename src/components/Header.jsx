@@ -1,12 +1,13 @@
 const Header = () => {
-  return (
-    <>
-      <h1 className="font-black text-5xl text-center md:w-2/3 mx-auto">
-        Seguimiento Pacientes {""}
-        <span className="text-violet-600">Veterinaria</span>
-      </h1>
-    </>
-  );
+    return (
+        <>
+            <img className="mx-auto py-1" src="./src/assets/logo.png" alt="Logo Veterinaria" />
+            <h1 className="font-black text-2xl text-center md:w-2/3 mx-auto">
+                Seguimiento Pacientes {""}
+                <span className="text-pink-600">Veterinaria</span>
+            </h1>
+        </>
+    );
 }
 
 export default Header;
